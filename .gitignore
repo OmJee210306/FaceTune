@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Face data / generated data
+dataset/
+datasets/
+models/*.pkl
+models/*.pickle
+embeddings/
+face_data/
+
+# Audio / generated media
+songs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / packaging
+build/
+dist/
+*.spec
+
+# Temporary files
+*.tmp
+*.temp
